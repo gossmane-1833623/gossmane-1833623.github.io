@@ -1,0 +1,43 @@
+
+#Paragraph{
+	text-align: center;
+}
+
+#Picture{
+	text-align: center; 
+}
+
+#Content1{
+	border: dotted 8px rgb(43, 99, 255);
+	font-family: "Passion One";
+}
+
+#Content2{
+  border-radius: 25px;
+  border: 8px solid rgb(59, 110, 221);
+  font-family: "Arial";
+  padding: 20px; 
+  width: 750px;
+  height: 100px; 
+}
+
+#pic2{
+	position: absolute;
+	top: 0px;
+	left: 25px;
+}
+
+#P2{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#P3{
+    float: left;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
