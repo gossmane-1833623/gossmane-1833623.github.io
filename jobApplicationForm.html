@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Buddy Application</title>
+</head>
+<body>
+
+<h2>Buddy Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Account</legend>
+		<div class="field">
+			<label>Email:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Confirm password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Your Info</legend>
+		<div class="field">
+			<label>Full Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Instagram:</label> 
+			<input type="text" name="instagram">
+		</div>
+		<div class="field">
+			<label>TikTok:</label> 
+			<input type="text" name="tiktok">
+		</div>
+		<div class="field">
+			<label>Age:</label> 
+			<select name="age">
+				<option value="" selected="true">Choose your age</option>
+				<option value="younger">YOUNGER</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="older">OLDER</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>Nickname:</label> 
+			<input type="text" name="nickname">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Are you truly ready to be my homie for life?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>How sure are you?</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="100%">100%</li>
+				<li><input type="checkbox" name="position_ft" value="deep_end">Throw me off the deep end</li>
+				<li><input type="checkbox" name="position_sl" value="eh">Eh</li>
+				<li><input type="checkbox" name="position_tp" value="questioning">Questioning it</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>Ideal Hangout Hours: </label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>What is your best joke?</label><br>
+			<textarea name="joke" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Describe a tiktok we could make together:</label><br>
+			<textarea name="tiktok_together" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>How well do you know me?</legend>
+		<div class="field">
+			<label>My favorite Color:</label> 
+			<select name="color">
+				<option value="" selected="true">Choose the color</option>
+				<option value="F">PINK</option>
+				<option value="T">YELLOW</option>
+				<option value="F">BLUE</option>
+				<option value="F">BLACK</option>
+			</select>
+		</div>
+
+		<div class="field">
+			<label>What would you call me: </label> 
+			<input type="text" name="my_nickname">
+		</div>
+
+		<div class="field">
+			<label>Whats my favorite song: </label> 
+			<input type="text" name="song">
+		</div>
+
+		<div class="field">
+			<label>What are my dogs name's:</label> 
+			<select name="dogs">
+				<option value="" selected="true">Choose names</option>
+				<option value="T">LUCKY AND REGGIE</option>
+				<option value="F">WINNIE AND HARLOW</option>
+				<option value="F">GRADY AND LUCKY</option>
+				<option value="F">DEWEY AND BHEAR</option>
+			</select>
+		</div>
+
+		<div class="field">
+			<label>Whats the nickname I only let CLOSE friends call me:</label> 
+			<select name="exclusive">
+				<option value="" selected="true">Pick one</option>
+				<option value="F">BETH</option>
+				<option value="F">LIZA</option>
+				<option value="T">LIZ</option>
+				<option value="F">LIZARD</option>
+			</select>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
